@@ -9,7 +9,7 @@ import (
 	"image/draw"
 	"os"
 
-	"golang.org/x/image/vector"
+	"github.com/Atori-Ikeyama/image/vector"
 )
 
 func Example_draw() {
