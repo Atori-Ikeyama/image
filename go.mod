@@ -1,4 +1,4 @@
-module golang.org/x/image
+module github.com/Atori-Ikeyama/image
 
 go 1.23.0
 
