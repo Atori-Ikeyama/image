@@ -135,7 +135,7 @@ func (f *Face) Metrics() font.Metrics {
 func (f *Face) Kern(r0, r1 rune) fixed.Int26_6 {
 	x0, _ := f.f.GlyphIndex(&f.buf, r0)
 	x1, _ := f.f.GlyphIndex(&f.buf, r1)
-	k, err := f.f.Kern(&f.buf, x0, x1, fixed.Int26_6(f.f.UnitsPerEm()), f.hinting)
+	k, err := f.f.Kern(&f.buf, x0, x1, f.scale, f.hinting)
 	if err != nil {
 		return 0
 	}
