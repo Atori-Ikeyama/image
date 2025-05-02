@@ -5,7 +5,7 @@ package inconsolata
 import (
 	"image"
 
-	"golang.org/x/image/font/basicfont"
+	"github.com/Atori-Ikeyama/image/font/basicfont"
 )
 
 // regular8x16 contains 289 9×17 glyphs in 44217 Pix bytes.

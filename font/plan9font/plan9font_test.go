@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/image/font"
+	"github.com/Atori-Ikeyama/image/font"
 )
 
 func TestMetrics(t *testing.T) {
